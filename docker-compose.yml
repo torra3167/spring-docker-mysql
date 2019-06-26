@@ -8,7 +8,6 @@ services:
       - employee-mysql
     depends_on:
       - mysqldb
-
   mysqldb:
     image: mysql:8
     networks:
